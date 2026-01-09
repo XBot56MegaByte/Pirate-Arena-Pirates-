@@ -11,7 +11,7 @@ export interface PlayerState {
   isAI: boolean;
   position: [number, number, number];
   rotation: number;
-  goldCarried: number; // Changed from hasGold: boolean
+  goldCarried: number;
   isJailed: boolean;
   jailTimeRemaining: number;
   velocity: [number, number, number];
@@ -26,7 +26,7 @@ export interface GameState {
   players: PlayerState[];
   scores: Record<TeamColor, number>;
   goldInBases: Record<TeamColor, number>;
-  gameStatus: 'LOBBY' | 'PLAYING' | 'FINISHED';
+  gameStatus: 'INTRO' | 'LOBBY' | 'PLAYING' | 'FINISHED';
   winner?: TeamColor;
 }
 

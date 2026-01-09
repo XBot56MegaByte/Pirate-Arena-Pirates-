@@ -8,16 +8,16 @@ export const TEAM_CONFIG = {
 };
 
 export const JAIL_POSITION: [number, number, number] = [0, 0, 0];
-export const JAIL_TIME = 15; // Reduced jail time for faster flow
-export const INITIAL_GOLD = 10;
-export const WIN_SCORE = 5; 
+export const JAIL_TIME = 15; 
+export const INITIAL_GOLD = 20; // Balanced for 4 players
+export const WIN_SCORE = 10;    // Balanced for 4 players
 export const BASE_MOVE_SPEED = 0.28;
 export const AI_SPEED = 0.22;
 export const TAG_DISTANCE = 2.5;
 export const STEAL_DISTANCE = 2.0;
 
 export const BOOTY_PER_WIN = 100;
-export const UPGRADE_BASE_COST = 50;
+export const UPGRADE_BASE_COST = 250; 
 
 export const BRAINROT_PHRASES = [
   "67",
